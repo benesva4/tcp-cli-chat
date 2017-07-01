@@ -1,2 +1,2 @@
 # tcp-cli-chat
-Simple command line chat  
+Simple command line chat. 
