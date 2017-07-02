@@ -39,7 +39,7 @@ func errorCheck(err error) {
 
 func client() {
 	conn, err := net.Dial("tcp", addressNew)
-	fmt.Println("CONNECTION ESTABLISHED \a")
+	fmt.Println("CONNECTION ESTABLISHED")
 	fmt.Println("You can write your messages now:")
 	errorCheck(err)
 	defer conn.Close()
